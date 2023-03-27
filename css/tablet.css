@@ -1,0 +1,124 @@
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .certificate-text,
+  .project-table,
+  .project-info,
+  .hobbies-text,
+  .languages-text,
+  .skills-text,
+  p,
+  .job-title,
+  li {
+    font-size: 12px;
+  }
+
+  header {
+    height: 400px;
+  }
+
+  /* NAME & POSITION */
+  .center {
+    position: absolute;
+    top: 60%;
+  }
+
+  .default-avatar {
+    display: none;
+  }
+
+  .nav-item {
+    gap: 2px;
+  }
+
+  /* DISPLAY-NONE TO THE DEFAULT AVATAR AREA */
+  .nav-item:nth-child(3) {
+    display: none;
+  }
+  .nav-item:nth-child(4) {
+    border-left: none;
+  }
+
+  .nav-icons {
+    font-size: 13px;
+  }
+
+  /* JOB-INFO */
+  #job-info .container {
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: auto;
+  }
+  .job-title {
+    margin-bottom: 6px;
+  }
+  .job-list {
+    gap: 18px;
+  }
+  .job-date {
+    margin-bottom: 6px;
+  }
+  .hobbies {
+    justify-content: space-between;
+  }
+  .hobbies-text-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+  }
+  .hobbies-text:nth-child(4) {
+    margin-right: 0px;
+  }
+  .hobbies-text:nth-child(3) {
+    margin-right: 20px;
+  }
+
+  /* CERTIFICATES */
+  #certificate {
+    display: grid;
+    justify-content: center;
+  }
+  .certificate-items {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .certificate-grid {
+    grid-template-columns: repeat(2, 40vw);
+    gap: 35px;
+    width: 80%;
+  }
+  .certificate-images {
+    width: 80%;
+  }
+  .certificate-title {
+    font-size: 12px;
+  }
+  .certificate-border {
+    padding: 0 60px;
+  }
+
+  /* PROJECTS */
+  #project {
+    width: 100%;
+  }
+  #project .section-title-2 {
+    padding-left: 7%;
+  }
+  .container-project {
+    display: grid;
+    justify-items: center;
+  }
+  .project-grid {
+    grid-template-rows: auto;
+    column-gap: 12px;
+    width: 85%;
+  }
+  .project-images {
+    width: 100%;
+  }
+  .project-info {
+    gap: 3px;
+    padding: 3px 10px;
+    align-items: center;
+  }
+  .project-names p {
+    font-size: 10px;
+  }
+}
