@@ -247,6 +247,7 @@ li span {
 .job-title {
   color: #343a40;
   font-weight: 500;
+        margin-bottom: 0.3rem;
 }
 .job-date {
   font-style: italic;
