@@ -278,6 +278,12 @@ li span {
   margin-bottom: 7px;
 }
 
+.hobbies-text-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 0px;
+}
+
 .hobbies-icons {
   background: #fff;
   width: 40px;
