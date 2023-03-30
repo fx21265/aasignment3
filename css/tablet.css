@@ -82,7 +82,7 @@
   .certificate-grid {
     grid-template-columns: repeat(2, 40vw);
     gap: 35px;
-    width: 80%;
+    width: 100%;
   }
   .certificate-images {
     width: 80%;
